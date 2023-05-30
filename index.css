@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.head-part {
+    background-color: gray;
+    padding: 5px;
+    background-size: px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+.head-part .btn {
+    float: right;
+    margin-top: -70.5px;
+    padding: 3px 6px;
+}
+
+button {
+    background-color: gold;
+    font-style: bold;
+    padding:  8px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: goldenrod;
+
+}
+
+img {
+    width: 500px;
+    margin-right: 10px; /* Adjust the spacing between images */
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+
+}
+
+.main-part {
+    display: flex;;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* Adjust the spacing between images */
+    margin-top: auto;
+    color: white;
+    margin-top: 100px;
+}
+
+.main-part1 {
+    border: 5px solid gold;
+    margin-right: 150px;
+    border-radius: 20px;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+}
+
+.main-part2 {
+    border: 5px solid gold;
+    margin-right: 150px;
+    border-radius: 20px;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+
+
+}
+.main-part3 {
+    grid-column: 1 / span 2; /* Span across two columns */
+    border: 5px solid gold;
+    margin-right: 830px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
